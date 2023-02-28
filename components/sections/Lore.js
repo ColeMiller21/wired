@@ -24,16 +24,17 @@ const Lore = () => {
           transfer his mind into the computer and control his victims like a
           virus.
         </p>
-        <p className="lore-text">
-          The most terrifying aspect of Radovan's existence is that his brain is
-          directly connected to the computer, making him almost omnipotent.
-          Although he is static physically, mentally he is more powerful than
-          ever before. He has also gathered supporters to aid him in his quest
-          for eternal life. The man on his back is using a breathing machine,
-          similar to a blacksmith's bellows, to keep the boss alive. This
-          machine substitutes for Radovan's lungs, which no longer function.
+        <p className="lore-text leading-loose">
+          The most terrifying aspect of Radovan&apos;s existence is that his
+          brain is directly connected to the computer, making him almost
+          omnipotent. Although he is static physically, mentally he is more
+          powerful than ever before. He has also gathered supporters to aid him
+          in his quest for eternal life. The man on his back is using a
+          breathing machine, similar to a blacksmith&apos;s bellows, to keep the
+          boss alive. This machine substitutes for Radovan&apos;s lungs, which
+          no longer function.
         </p>
-        <p className="lore-text">
+        <p className="lore-text leading-loose">
           The lore of Radovan creates a world where humans are no longer the
           only dominant species. The line between human and machine is blurred,
           and the boundaries of life and death are pushed to the limit. Radovan
