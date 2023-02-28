@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import MainHeader from "../MainHeader";
 import { teamMembers } from "../../data/teamInfo";
+import FallInPlace from "../FallInPlace";
 
 const Team = () => {
   return (
@@ -10,11 +11,9 @@ const Team = () => {
       <div className="flex flex-col gap-[2.5rem] w-full mt-[40px] items-center mb-[100px]">
         {teamMembers.map((member, i) => {
           return (
-            <MemberSection
-              key={`${member.title}+${i}`}
-              member={member}
-              idx={i}
-            />
+            <FallInPlace key={`${member.title}+${i}`}>
+              <MemberSection member={member} idx={i} />
+            </FallInPlace>
           );
         })}
       </div>
