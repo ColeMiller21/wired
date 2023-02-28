@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Orbitron;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --app-height: auto;
+  --primary-color: "";
+  --secondary-color: #3f00ff;
+  --title-color: "";
+  --link-color: black;
+}
+
+.min-full-page {
+  min-height: var(--app-height);
+}
+
+.above-all {
+  z-index: 1000;
+}
+
+.sub-page-bg {
+  background: rgb(17, 2, 2);
+  background: linear-gradient(
+    183deg,
+    rgba(17, 2, 2, 1) 0%,
+    rgba(75, 11, 11, 1) 66%,
+    rgba(155, 43, 44, 1) 100%
+  );
+}
+
+.lore-text::first-letter {
+  font-size: 275%;
+  vertical-align: bottom;
+  line-height: 0.9em;
+}
