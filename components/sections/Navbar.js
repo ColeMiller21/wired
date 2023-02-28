@@ -32,14 +32,14 @@ const Navbar = ({ toggleAudio, muted }) => {
           {pageLinks.map((link, i) => {
             return (
               <Link href={link.href} key={`${link.title}-${i}`}>
-                <div class="relative cursor-pointer transition duration-500 ease-in-out transform hover:scale-110 ">
+                <div className="relative cursor-pointer transition duration-500 ease-in-out transform hover:scale-110 ">
                   <img
                     src="/monitor.png"
                     alt="Your Image"
-                    class="w-[120px] h-[50px] object-cover "
+                    className="w-[120px] h-[50px] object-cover "
                   />
-                  <div class="absolute inset-0 flex items-center justify-center">
-                    <p class="text-white font-bold font-orbitron">
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <p className="text-white font-bold font-orbitron">
                       {link.title}
                     </p>
                   </div>

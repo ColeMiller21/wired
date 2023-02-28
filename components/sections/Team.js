@@ -9,7 +9,13 @@ const Team = () => {
       <MainHeader>TEAM</MainHeader>
       <div className="flex flex-col gap-[2.5rem] w-full mt-[40px] items-center mb-[100px]">
         {teamMembers.map((member, i) => {
-          return <MemberSection member={member} idx={i} />;
+          return (
+            <MemberSection
+              key={`${member.title}+${i}`}
+              member={member}
+              idx={i}
+            />
+          );
         })}
       </div>
     </div>
