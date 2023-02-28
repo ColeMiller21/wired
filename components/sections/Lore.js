@@ -4,7 +4,7 @@ import MainHeader from "../MainHeader";
 
 const Lore = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center sub-page-bg bg-cover bg-no-repeat gap-[2.5rem]">
+    <div className="w-full min-h-screen flex flex-col items-center sub-page-bg bg-cover bg-no-repeat">
       <MainHeader>LORE/UTILITY</MainHeader>
       <FallInPlace>
         <div className="w-full mt-[-125px] md:mt-[-250px] flex justify-center">
@@ -16,7 +16,7 @@ const Lore = () => {
         </div>
       </FallInPlace>
       <FallInPlace delay={0.05}>
-        <div className="w-[80%] lg:w-[70%] text-gray-300 flex flex-col gap-[2.5rem] font-ubuntu text-[1.25rem] mb-[100px]">
+        <div className="backdrop-blur-md bg-black bg-opacity-40 w-[95%] lg:w-[70%] text-gray-300 flex flex-col gap-[2.5rem] font-ubuntu text-[1.25rem] mt-[-10px] mb-[100px] p-[2rem]">
           <div>
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title">
               UTILTY
@@ -48,7 +48,7 @@ const Lore = () => {
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title ">
               LORE
             </h2>
-            <p className="lore-text leading-loose text-[1.25rem]">
+            <p className="lore-text leading-loose text-[1.25rem] text-center">
               Radovan, the crazed scientist, is the ultimate antagonist of this
               sci-fi horror story. His obsession with extending his life, or
               even avoiding death at all costs, has driven him to create devices
