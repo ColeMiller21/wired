@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         orbitron: ["Orbitron", "sans-serif"],
         ubuntu: ["Ubuntu", "sans-serif"],
+        audiowide: ["Audiowide", "cursive"],
       },
     },
   },

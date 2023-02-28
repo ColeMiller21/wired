@@ -52,4 +52,11 @@ a {
   font-size: 275%;
   vertical-align: bottom;
   line-height: 0.9em;
+  -webkit-text-stroke: 2px #c02c2c !important;
+  -webkit-text-fill-color: #481213 !important;
+}
+
+.main-title {
+  -webkit-text-stroke: 2px #c02c2c;
+  -webkit-text-fill-color: #481213;
 }
