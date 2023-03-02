@@ -21,26 +21,35 @@ const Lore = () => {
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title">
               UTILTY
             </h2>
-            <ul className="list-none text-center flex flex-col gap-[1rem] text-[1.25rem]">
+            <ul className="list-none text-center flex flex-col gap-[1rem] text-[1.25rem] bg-[url('/')]">
               <li>
-                <span className="text-[1.7rem] main-title">1. </span> Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                <span className="text-[1.7rem] main-title">1. </span>
+                Lore-based NFT project with a sci-fi horror story theme and
+                high-quality art
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">2. </span> Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                <span className="text-[1.7rem] main-title">2. </span> First of
+                its kind Upload-2-Earn feature incentivizes both NFT holders and
+                content creators to upload videos and promote the project
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">3. </span> Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                <span className="text-[1.7rem] main-title">3. </span> Initially,
+                only NFT holders can participate, creating exclusivity and value
+                for holding the NFT
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">4. </span> Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                <span className="text-[1.7rem] main-title">4. </span> As the
+                project grows, a pass can be bought for a passive income stream
+                of uploading to earn
+              </li>
+              <li>
+                <span className="text-[1.7rem] main-title">5. </span> Revenue
+                model from advertising people through the rewards system, with
+                people paying to post and earn
+              </li>
+              <li>
+                <span className="text-[1.7rem] main-title">6. </span> Goal of
+                going viral aligns with Radovan's desire for power and control.
               </li>
             </ul>
           </div>
