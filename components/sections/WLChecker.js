@@ -37,8 +37,8 @@ const WLChecker = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center sub-page-bg bg-cover bg-no-repeat gap-[2.5rem] relative">
       <MainHeader>WL CHECKER</MainHeader>
-      <div className="flex flex-col items-center justify-center p-[2rem] gap-[1.5rem]">
-        <h3 className="text-gray-300">
+      <div className="flex flex-col items-center justify-center p-[2rem] gap-[1.5rem] z-10">
+        <h3 className="text-gray-300 text-center">
           Enter Address below to check WL status!
         </h3>
         <input
@@ -60,7 +60,7 @@ const WLChecker = () => {
       <img
         src="/Victim.png"
         alt="Victim"
-        className="min-w-[250px] md:w-[400px] absolute bottom-0 right-[-5%]"
+        className="min-w-[250px] md:w-[400px] absolute bottom-0 right-[-5%] z-1"
       />
     </div>
   );
