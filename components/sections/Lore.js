@@ -21,7 +21,7 @@ const Lore = () => {
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title">
               UTILTY
             </h2>
-            <ul className="list-none text-center flex flex-col gap-[1rem] text-[1.25rem] bg-[url('/')]">
+            <ul className="list-none text-center flex flex-col gap-[1rem] text-[1.25rem]">
               <li>
                 <span className="text-[1.7rem] main-title">1. </span>
                 Lore-based NFT project with a sci-fi horror story theme and
@@ -49,7 +49,8 @@ const Lore = () => {
               </li>
               <li>
                 <span className="text-[1.7rem] main-title">6. </span> Goal of
-                going viral aligns with Radovan's desire for power and control.
+                going viral aligns with Radovan&apos;s desire for power and
+                control.
               </li>
             </ul>
           </div>
