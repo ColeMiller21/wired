@@ -39,9 +39,9 @@ const Navbar = ({ toggleAudio, muted }) => {
                     className="w-[120px] h-[50px] object-cover "
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <p className="text-gray-300 font-bold font-orbitron">
+                    <span className="text-gray-300 font-bold font-orbitron">
                       {link.title}
-                    </p>
+                    </span>
                   </div>
                 </div>
               </Link>
