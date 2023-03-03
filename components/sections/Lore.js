@@ -17,48 +17,54 @@ const Lore = () => {
       </FallInPlace>
       <FallInPlace delay={0.05}>
         <div className="backdrop-blur-md bg-black bg-opacity-40 w-[95%] lg:w-[70%] text-gray-300 flex flex-col gap-[2.5rem] font-ubuntu text-[1.25rem] mt-[-10px] mb-[100px] p-[2rem]">
-          <div>
+          <div className="flex flex-col items-center">
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title">
               UTILTY
             </h2>
-            <ul className="list-none text-center flex flex-col gap-[1rem] text-[1.25rem]">
+            <ul className="list-disc flex flex-col text-left gap-[1rem] text-[1.25rem] px-[2rem]">
               <li>
-                <span className="text-[1.7rem] main-title">1. </span>
                 Lore-based NFT project with a sci-fi horror story theme and
-                high-quality art
+                high-quality art.
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">2. </span> First of
-                its kind Upload-2-Earn feature incentivizes both NFT holders and
-                content creators to upload videos and promote the project
+                First of its kind <span className="redacted">doulap</span>
+                -2-Earn feature{" "}
+                <span className="redacted">
+                  ot puolda seidvu dna emtrop eht tcejorp, izecnivetnis htob
+                  tnetnoc serotaerc dna TFN slledoh.
+                </span>
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">3. </span> Initially,
-                only NFT holders can participate, creating exclusivity and value
-                for holding the NFT
+                <span className="redacted">ylailitn,</span> only NFT holders can
+                participate,{" "}
+                <span className="redacted">
+                  gnitarec ytiluxesiv and eulav rof gnildoh eht TFN.
+                </span>
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">4. </span> As the
-                project grows, a pass can be bought for a passive income stream
-                of uploading to earn
+                As the project grows,{" "}
+                <span className="redacted">a ssap nac eb ghoutb rof a</span>{" "}
+                passive income
+                <span className="redacted">maerts fo gnidpolu ot nere.</span>
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">5. </span> Revenue
-                model from advertising people through the rewards system, with
-                people paying to post and earn
+                Revenue model{" "}
+                <span className="redacted">
+                  morf gnitiradsa elpoep hguorht eht sdrawro sytsem, wtih elpoep
+                  yinap ot tsop dna nere.
+                </span>
               </li>
               <li>
-                <span className="text-[1.7rem] main-title">6. </span> Goal of
-                going viral aligns with Radovan&apos;s desire for power and
-                control.
+                <span className="redacted">loag fo gniog lirav.</span> aligns
+                with Radovan&apos;s desire for power and control.
               </li>
             </ul>
           </div>
-          <div>
+          <div className="">
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title ">
               LORE
             </h2>
-            <p className="lore-text leading-loose text-[1.25rem] text-center">
+            <p className="lore-text leading-loose text-[1.25rem]">
               Radovan, the crazed scientist, is the ultimate antagonist of this
               sci-fi horror story. His obsession with extending his life, or
               even avoiding death at all costs, has driven him to create devices

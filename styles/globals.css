@@ -6,6 +6,7 @@
 
 html,
 body {
+  background-color: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -59,4 +60,21 @@ a {
 .main-title {
   -webkit-text-stroke: 2px #c02c2c;
   -webkit-text-fill-color: #481213;
+}
+
+.redacted {
+  position: relative;
+  white-space: pre;
+}
+
+.redacted::after {
+  background: black;
+  border-radius: 0.1em;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+  content: " ";
+  width: 100%;
+  height: 1.2em;
+  left: 0;
+  position: absolute;
+  transform: skewY(-5deg) rotate(5deg);
 }
