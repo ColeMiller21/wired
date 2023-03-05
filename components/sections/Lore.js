@@ -17,46 +17,56 @@ const Lore = () => {
       </FallInPlace>
       <FallInPlace delay={0.05}>
         <div className="backdrop-blur-md bg-black bg-opacity-40 w-[95%] lg:w-[70%] text-gray-300 flex flex-col gap-[2.5rem] font-ubuntu text-[1.25rem] mt-[-10px] mb-[100px] p-[2rem]">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center ">
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title">
               UTILTY
             </h2>
-            <ul className="list-disc flex flex-col text-left gap-[1rem] text-[1.25rem] px-[2rem]">
+            <ul className="list-disc flex flex-col text-left gap-[1rem] px-[2rem]">
               <li>
                 Lore-based NFT project with a sci-fi horror story theme and
                 high-quality art.
               </li>
               <li>
                 First of its kind <span className="redacted">doulap</span>
-                -2-Earn feature{" "}
-                <span className="redacted">
-                  ot puolda seidvu dna emtrop eht tcejorp, izecnivetnis htob
-                  tnetnoc serotaerc dna TFN slledoh.
-                </span>
+                -2-Earn feature <span className="redacted">ot puolda</span>{" "}
+                <span className="redacted"> seidvu dna</span>{" "}
+                <span className="redacted">emtrop eht </span>
+                <span className="redacted"> tcejorp,</span>{" "}
+                <span className="redacted">izecnivetnis htob </span>
+                <span className="redacted"> tnetnoc </span>{" "}
+                <span className="redacted">serotaerc dna </span>
+                <span className="redacted">TFN slledoh</span>.
               </li>
               <li>
                 <span className="redacted">ylailitn,</span> only NFT holders can
-                participate,{" "}
-                <span className="redacted">
-                  gnitarec ytiluxesiv and eulav rof gnildoh eht TFN.
-                </span>
+                participate, <span className="redacted">gnitarec</span>{" "}
+                <span className="redacted"> ytiluxesiv </span>{" "}
+                <span className="redacted">and eulav</span>{" "}
+                <span className="redacted">rof gnildoh</span>{" "}
+                <span className="redacted">eht TFN</span>.
               </li>
               <li>
-                As the project grows,{" "}
-                <span className="redacted">a ssap nac eb ghoutb rof a</span>{" "}
-                passive income
-                <span className="redacted">maerts fo gnidpolu ot nere.</span>
+                As the project grows, <span className="redacted">a ssap</span>{" "}
+                <span className="redacted">nac eb</span>{" "}
+                <span className="redacted">ghoutb</span>{" "}
+                <span className="redacted">rof a</span> passive income
+                <span className="redacted">maerts</span>{" "}
+                <span className="redacted">fo gnidpolu</span>{" "}
+                <span className="redacted">ot nere</span>.
               </li>
               <li>
-                Revenue model{" "}
-                <span className="redacted">
-                  morf gnitiradsa elpoep hguorht eht sdrawro sytsem, wtih elpoep
-                  yinap ot tsop dna nere.
-                </span>
+                Revenue model <span className="redacted">morf</span>
+                <span className="redacted"> gnitiradsa</span>
+                <span className="redacted"> elpoep</span>
+                <span className="redacted"> hguorht eht</span>{" "}
+                <span className="redacted">sdrawro sytsem</span>,{" "}
+                <span className="redacted">wtih elpoep</span>
+                yinap ot tsop dna nere.
               </li>
               <li>
-                <span className="redacted">loag fo gniog lirav.</span> aligns
-                with Radovan&apos;s desire for power and control.
+                <span className="redacted">loag fo</span>{" "}
+                <span className="redacted">gniog lirav</span>. aligns with
+                Radovan&apos;s desire for power and control.
               </li>
             </ul>
           </div>
@@ -64,7 +74,7 @@ const Lore = () => {
             <h2 className="text-[8.5vw] md:text-[6vw] text-center font-audiowide main-title ">
               LORE
             </h2>
-            <p className="lore-text leading-loose text-[1.25rem]">
+            <p className="lore-text leading-loose text-[1.25rem] px-[1rem]">
               Radovan, the crazed scientist, is the ultimate antagonist of this
               sci-fi horror story. His obsession with extending his life, or
               even avoiding death at all costs, has driven him to create devices
