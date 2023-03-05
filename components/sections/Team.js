@@ -29,7 +29,7 @@ const MemberSection = ({ member, idx }) => {
         idx % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
       } gap-[2rem] md:w-[90%] lg:w-[70%]`}
     >
-      <div className="h-[250px] aspect-square relative">
+      <div className="h-[300px] md:h-[250px] aspect-square relative">
         <img className="w-full h-full" src={member.image} alt={member.alt} />
       </div>
       <div className="text-gray-300 font-ubuntu flex flex-col gap-[1rem] justify-center">
