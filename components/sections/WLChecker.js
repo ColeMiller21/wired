@@ -14,17 +14,17 @@ const WLChecker = () => {
   const checkForUser = async () => {
     if (address === "" || !address) return;
     setIsChecking(true);
-    if (!isValidAddress(address)) {
-      isError(true);
-      setErrorMessage("Address entered is not valid.");
-      setIsChecking(false);
-    }
+    // if (!isValidAddress(address)) {
+    //   isError(true);
+    //   setErrorMessage("Address entered is not valid.");
+    //   setIsChecking(false);
+    // }
     try {
       let { data } = await axios.get(`/api/getUser?address=${address}`);
-      console.log(data);
       if (data === "") {
         console.log("No whitelisted");
         setMessage("This address is not whitelisted!");
+        setIsChecking(false);
         return;
       }
       setMessage("Congrats! This wallet is whitelisted!");
