@@ -61,7 +61,7 @@ const Lore = () => {
                 <span className="redacted"> hguorht eht</span>{" "}
                 <span className="redacted">sdrawro sytsem</span>,{" "}
                 <span className="redacted">wtih elpoep</span>
-                yinap ot tsop dna nere.
+                <span className="redacted">yinap ot tsop dna nere</span>.
               </li>
               <li>
                 <span className="redacted">loag fo</span>{" "}
